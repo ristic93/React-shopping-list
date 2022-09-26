@@ -1,0 +1,75 @@
+.container{
+    margin: 50px auto;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #313233;
+    padding: 20px 40px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 70%;
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+table {
+    margin: auto auto;
+    font-size: 1.5rem;
+}
+
+td:nth-child(1) {
+    margin-left: 40px;
+    padding: 0 10px;
+}
+
+.editBtn {
+    padding: 10px 10px;
+    background-color: seagreen;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    background-color: lightgreen;
+}
+
+.deleteBtn {
+    padding: 10px 10px;
+    background-color: rgb(255, 21, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: tomato;
+}
+
+.list {
+    height: 400px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  }

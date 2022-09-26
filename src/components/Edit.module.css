@@ -1,0 +1,54 @@
+.container{
+    margin: 50px auto;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #313233;
+    padding: 20px 40px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 70%;
+    }
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 15px 0;
+    width: 150px;
+}
+
+.editBtn {
+    padding: 10px 10px;
+    background-color: seagreen;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    background-color: lightgreen;
+}
+
+.deleteBtn {
+    padding: 10px 10px;
+    background-color: rgb(255, 21, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: tomato;
+}

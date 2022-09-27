@@ -1,6 +1,6 @@
 # React-shopping-list
 
-Simple shopping list made using React.js
+Simple shopping list made by using React.js
 
 https://loquacious-frangollo-e85cf6.netlify.app
 
